@@ -43,7 +43,7 @@ def main():
         out = get_path(args.n1, args.m1) + get_path(args.n2, args.m2)
         print(out)
     except Exception as e:
-        print(f"Runtime error : {e}")
+        print(f"Ошибка выполнения : {e}")
         sys.exit(1)
 
 
