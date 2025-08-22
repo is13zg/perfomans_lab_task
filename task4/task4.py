@@ -63,7 +63,7 @@ def main():
             print(f"{MOVE_LIMIT} ходов недостаточно для приведения всех элементов массива к одному числу")
 
     except Exception as e:
-        print(f"Ошибка выполнения : {e}")
+        print(f"Ошибка выполнения: {e}")
         sys.exit(1)
 
 
